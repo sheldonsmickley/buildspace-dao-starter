@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.13.0"
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "@3rdweb/hooks": "^1.6.0",
@@ -15,7 +15,7 @@
     "react-scripts": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start --max-old-space-size=8192 ",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
